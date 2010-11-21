@@ -1,0 +1,9 @@
+
+development:
+  # adapter: mysql
+  adapter: em_mysqlplus
+  database: async_development
+  user: root
+  password: 
+
+
