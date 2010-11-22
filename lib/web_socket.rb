@@ -7,7 +7,6 @@ module Rack
     def call(env)
       status, headers, response = @app.call(env)
 
-      puts "I am in your rack"
       [status, headers, response]
     end
 

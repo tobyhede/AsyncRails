@@ -19,6 +19,10 @@ gem 'em-mysqlplus',   :git => 'git://github.com/igrigorik/em-mysqlplus.git',  :r
 gem 'em-http-request',:git => 'git://github.com/igrigorik/em-http-request.git', :require => 'em-http'
 gem 'addressable', :require => 'addressable/uri'
 
+
+gem 'em-websocket.git', :git => 'git://github.com/igrigorik/em-websocket.git', :require => 'em-websocket'
+
+
 gem 'thin'
 
 
