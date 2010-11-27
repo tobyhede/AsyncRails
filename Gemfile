@@ -22,8 +22,11 @@ gem 'addressable', :require => 'addressable/uri'
 
 gem 'em-websocket.git', :git => 'git://github.com/igrigorik/em-websocket.git', :require => 'em-websocket'
 
+gem 'resque'
 
 gem 'thin'
+
+
 
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
