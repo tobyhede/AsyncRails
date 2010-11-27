@@ -1,16 +1,32 @@
 Async Rails
 ===========
 
-Experiments with running Rails Asynchronously.
+Experimental Rails build covering:
+
+ - Asynchronous Rails
+ - Rails 3
+ - Ruby 1.9.x and Fibers
+ - Event Machine 
+ - Evented drivers
+ - Redis
+ - Resque
+ - Websockets 
+
 
 Playing with Resque
 ----------
- 
+
+Running the worker task:
+ - COUNT=5 QUEUE=* rake resque:workers 
+
+To view the Resque admin:
+ - resque-web
 
 
 Dependencies
 ----------
- - Reddis (brew install redis)
+ - Ruby 1.9.2
+ - Redis (brew install redis)
 
 
 
