@@ -3,6 +3,16 @@ Async Rails
 
 Experiments with running Rails Asynchronously.
 
+Playing with Resque
+----------
+ 
+
+
+Dependencies
+----------
+ - Reddis (brew install redis)
+
+
 
 References
 ----------
