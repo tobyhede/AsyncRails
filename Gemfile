@@ -20,7 +20,7 @@ gem 'em-http-request',:git => 'git://github.com/igrigorik/em-http-request.git', 
 gem 'addressable', :require => 'addressable/uri'
 
 
-gem 'em-websocket.git', :git => 'git://github.com/igrigorik/em-websocket.git', :require => 'em-websocket'
+gem 'em-websocket', :git => 'git://github.com/igrigorik/em-websocket.git', :require => 'em-websocket'
 
 gem 'resque'
 
