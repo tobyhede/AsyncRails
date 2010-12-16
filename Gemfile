@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 
+
 # async wrappers
 # gem 'eventmachine',     :git => 'git://github.com/eventmachine/eventmachine.git'
 gem 'eventmachine'
@@ -35,6 +36,9 @@ gem 'thin'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+group :development, :test do  
+  gem 'autotest'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'cucumber'
+end
