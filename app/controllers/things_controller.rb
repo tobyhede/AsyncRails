@@ -1,7 +1,7 @@
 class ThingsController < ApplicationController
 
   def index
-    logger.debug("Hello World")
+    logger.debug("Hello, World")
     Thing.find_by_sql("select sleep(1)")
   end
 
